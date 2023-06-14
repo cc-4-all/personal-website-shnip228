@@ -7,9 +7,9 @@
         <nav>
             <h1>AX</h1>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li><a href="mailto:email@example.com">✉ email@example.com</a></li>
+                <a href="#hobbies"><li>Hobbies</li></a>   
+                <a href="#interests"><li>Interests</li></a>
+                <li><a href="mailto:camka660@gmail.com">✉ camka660@gmail.com</a></li>
             </ul>
         </nav>
         <main>
@@ -20,34 +20,44 @@
 
             <div class="profile-item">
                 <h1>About me</h1>
-                <h4>Hi, I'm Alex, this is my blog. I'm to do more programming and write about it here. 
-                    I haven't made my choice of studying doing dos games, games with unity or websites 
-                    because I don't know what I'm most intereste in. I also play the guitar and maybe will post something about it</h4>
+                <h4>Hi, I'm Alex, this is my blog. I want to do more programming and write about it here. 
+                    I haven't made my choice of studying making dos games, games with unity or websites 
+                    because I don't know what I'm most interested in, so I'll probably do nothing as usual. I also play the guitar and maybe will post something about it</h4>
             </div>
 
-            <div class="profile-item">
+            <div id="interests" class="profile-item">
                 <h1>My interests</h1>
                 <img src=""/>
                 <h2>Computer science 🖥</h2>
                 <h4>I'm interested in learning something about computers, old games, old websites, how everything works, etc</h4>
                 <h2>Guitar 🎸</h2>
-                <h4>I like to learn music that I like, so that's what I'm doing for of the time. The song that I'm currently learning is Paranoid.
+                <h4>I like to learn to play music that I like, so that's what I'm doing for of the time. The song that I'm currently learning is Paranoid.
                     I've been working on it since October, but still not there yet. Guess I'll need to switch to something and then come back.
                 </h4>
             </div>
 
-            <div class="profile-item">
+            <div id="hobbies" class="profile-item">
                 <h1>My hobbies</h1>
                 <img width="450" src="images/problems.jpg" />
                 <img width="250" src="images/guitar.jpg" />
                 <h2>Programming</h2>
-                <h4>I do python programming, like solving problens with it, want to find a way of using it</h4>
+                <h4>I do python programming, like solving problems with it, want to find a way of using it. I also tried PascalABC.NET, QBasic, kumir and a bit of C++ at school</h4>
                 <h2>Guitar</h2>
                 <h4>I've played the guitar for about 2.5 years, got my first electric guitar in November. I hope to improve my skills this summer, but, again, I never know what to do</h4>
             </div>
+
+
+            <!-- gallery-->
+
+            <div id="gallery">
+                <button id="prev">◀</button>
+                <img src="images/guitar.jpg" id="gallery-img" />
+                <button id="next">▶</button>
+            </div>
         </main>
         <footer>
-            <a href="#top">Back to the top</a>
+            <a href="#top">Back to the top ⬆</a>
         </footer>
+    <script src="script.js"></script>
     </body>
 </html>
